@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Clear from '../Hooks/Clear';
 import Search from '../Components/Search';
+import Search1 from '../Components/Search1';
 
 export default function Account() {
   const [data, setData] = useState([]);
@@ -20,7 +21,8 @@ export default function Account() {
   return (
     <div className='px-5'>
       {/* <Clear /> */}
-      <Search />
+      {/* <Search /> */}
+      <Search1 />
 
     </div>
   )
